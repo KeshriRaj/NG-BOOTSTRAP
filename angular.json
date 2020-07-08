@@ -24,9 +24,14 @@
               "src/assets"
             ],
             "styles": [
-              "src/styles.css"
+              "src/styles.css",
+              "node_modules/bootstrap/dist/css/bootstrap.min.css"
             ],
-            "scripts": []
+            "scripts": [
+              "./src/assets/mail/jqBootstrapValidation.js",
+              "./src/assets/mail/contact_me.js",
+              "./src/assets/js/scripts.js"
+            ]
           },
           "configurations": {
             "production": {

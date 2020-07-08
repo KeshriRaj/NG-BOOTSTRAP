@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+        <meta name="description" content="" />
+        <meta name="author" content="" />
+        <title>Freelancer - Start Bootstrap Theme</title>
+        <!-- Favicon-->
+        <link rel="icon" type="image/x-icon" href="./../assets/img/favicon.ico" />
+        <!-- Font Awesome icons (free version)-->
+        <script src="https://use.fontawesome.com/releases/v5.13.0/js/all.js" crossorigin="anonymous"></script>
+        <!-- Google fonts-->
+        <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css" />
+        <link href="https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic" rel="stylesheet" type="text/css" />
+        <!-- Core theme CSS (includes Bootstrap)-->
+        <!-- <link href="css/styles.css" rel="stylesheet" /> -->
+    </head>
+    <body id="page-top" >
+        <!-- Navigation-->
+        <nav class="navbar navbar-expand-lg bg-secondary text-uppercase fixed-top" id="mainNav">
+            <div class="container">
+                <a style="color: white" class ="navbar-brand js-scroll-trigger" href="#page-top">NgBootstrap</a>
+                <button class="navbar-toggler navbar-toggler-right text-uppercase font-weight-bold bg-primary text-white rounded" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+                    Menu
+                    <i class="fas fa-bars"></i>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarResponsive">
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item mx-0 mx-lg-1"><a style=" color: white;"class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" routerLink="/accordion">Accordin</a></li>
+                        <li class="nav-item mx-0 mx-lg-1"><a style=" color: white;"class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" routerLink="/carousel">Carousel</a></li>
+                        <li class="nav-item mx-0 mx-lg-1"><a style=" color: white;"class="nav-link py-3 px-0 px-lg-3 rouded js-scroll-trigger" routerLink="/modal">Modal</a></li>
+                        <li class="nav-item mx-0 mx-lg-1"><a style=" color: white;"class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" routerLink="/popover">Popover</a></li>
+                        <li class="nav-item mx-0 mx-lg-1"><a style=" color: white;"class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" routerLink="/typehead">Typehead</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <!-- Masthead-->
+        <br>
+        <br>
+        <br>
+        <br>
+        <section class="page-section portfolio" id="portfolio">
+                <!-- Portfolio Section Heading-->
+                <div class="center">
+                <h2>NGB - TYPEHEAD</h2>
+                </div>
+                <!-- Icon Divider-->
+                <div class="center">
+                    <p>A typeahead example that uses a formatter function for string results</p>
+
+                    <label for="typeahead-format">Search for a state:</label>
+                    <input id="typeahead-format" type="text" class="form-control" [(ngModel)]="model" [ngbTypeahead]="search" [resultFormatter]="formatter" />
+                    <hr>
+                    <pre>Model: {{ model | json }}</pre>
+            </div>
+        </section>
+                <!-- Bootstrap core JS-->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.bundle.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.min.js"></script>
+    </body>
+</html>
+
